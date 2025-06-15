@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+background-color: #0f1111;
+height: 60px;
+display: flex;
+color: white;
+justify-content: space-evenly;
+padding-top: 4px;
+align-items: center;
+gap: 4px;
+}
+
+.navlogo{
+    background-color: #0f1111;
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(logo.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 130px;;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border:1px solid white;
+    border-radius: 2px;
+}
+
+
+.location{
+    height: 50px;
+}
+
+.first{
+    font-size: 0.8rem;
+    color: #cccccc;
+     margin-left: 15px;
+      padding-top: 4px;
+}
+
+.second{
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.delivery{
+     height:40px;
+    width: 180px;
+    display: flex;
+    align-items: center ;
+}
+
+.search-bar{
+    display: flex;
+    width: 335px;
+    height: 50px;
+    align-items: center;
+    flex: 1;
+}
+
+select{
+    height: 40px;
+    width: 45px;
+    background-color: rgb(237, 236, 236);
+    border:2px;
+    border-bottom-left-radius: 2px ;
+    border-top-left-radius: 2px;
+    border-color: transparent;
+    border-right: 0px;
+}
+
+select:hover{
+    background-color: rgb(200, 199, 199);
+}
+
+.search-icon{
+    height: 40px;
+    width: 45px;
+    background-color: rgb(220, 168, 134);
+    border:2px;
+    border-bottom-right-radius: 2px ;
+    border-top-right-radius: 2px;
+    border-color: transparent;
+    display: flex;
+    border-left: 0px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.search-icon:hover{
+    background-color: rgb(196, 167, 117);
+}
+
+.search{
+    font-weight: 400;
+    height: 34px;
+    width: 100%;
+    border-color: transparent;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.lang{
+    background-color:transparent;
+    color: white;
+    height: 8px;
+    width: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.country{
+    height: 50px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.india{
+    height: 45px;
+    width: 46px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#inlogo{
+    height: 16px;
+    width: 21px;
+}
+
+.sign{
+    height: 50px;
+    width: 142px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.s1{
+     font-size: 11px;
+     height:14px ;
+    
+}
+
+.s2{
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 15px;
+    
+    gap: 4px;
+    margin-top: 4px;
+    white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+    
+    
+}
+
+.return{
+      height: 50px;
+    width: 77px;
+    display: flex;
+   padding-left: 15px;
+    padding-right: 5px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cart{
+    height: 50px;
+    width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-left: 8px;
+}
+
+.fa-solid.fa-cart-shopping{
+    height: 26px;
+    width: 38px;
+    font-size: 30px;
+}
+
+
+.contents{
+    height: 40px;
+    width: 100%;
+    background-color: #232f3e;
+    padding: 1px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+   
+    
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 39px;
+    padding-left: 10px;
+    padding-right: 18px;
+    flex-direction: row;
+     font-size: 15px;
+}
+
+.homeimage{
+    width: 100%;
+    background-image: url(amazon11.jpg);
+    height: 250px;
+    background-size: cover;
+    border: 0px;
+    
+}
+
+.mypage{
+    height: 1015px;
+    width: 100%;
+    background-color: #e3e6e6;
+}
+
+.blended-background {
+  width: 100%;
+  height: 100px;
+  background-image: url(amazon11.jpg);
+  background-color: rgba(159, 232, 254); /* semi-transparent black */
+  background-blend-mode: s ; /* blending mode */
+  background-size: fill;
+  background-position: center;
+  background-position: center bottom;
+}
+
+
